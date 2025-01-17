@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Plate Soldering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+        canvas {
+            display: block;
+            margin: 0 auto;
+            max-width: 600px;
+            max-height: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hot Plate Soldering</h1>
+
+    <button id="toggleButton">ON</button>
+
+    <canvas id="temperatureChart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Toggle button functionality
+        const toggleButton = document.getElementById("toggleButton");
+        toggleButton.addEventListener("click", function() {
+            if (toggleButton.textContent === "ON") {
+                toggleButton.textContent = "OFF";
+            } else {
+                toggleButton.textContent = "ON";
+            }
+        });
+
+        // Create the temperature chart using Chart.js
+        const ctx = document.getElementById('temperatureChart').getContext('2d');
+        const temperatureChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: Array.from({length: 60}, (_, i) => i), // Time from 0 to 59 seconds
+                datasets: [{
+                    label: 'Temperature (°C)',
+                    data: Array.from({length: 60}, () => Math.floor(Math.random() * 301)), // Random temperatures between 0 and 300
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    fill: true,
+                    tension: 0.1
+                }]
+            },
+            options: {
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Time (s)'
+                        }
+                    },
+                    y: {
+                        min: 0,
+                        max: 300,
+                        title: {
+                            display: true,
+                            text: 'Temperature (°C)'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>

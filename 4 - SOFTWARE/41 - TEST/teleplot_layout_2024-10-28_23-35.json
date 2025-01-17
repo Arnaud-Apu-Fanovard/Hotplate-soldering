@@ -1,0 +1,108 @@
+{
+   "widgets": [
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 19,
+            "w": 12,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Temp_Moyen",
+               "sourceNames": [
+                  "Temp_Moyen"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Temp_Moyen",
+                  "_id": "data-serie-91",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "SP",
+               "sourceNames": [
+                  "SP"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "SP",
+                  "_id": "data-serie-92",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "Cmd %",
+               "sourceNames": [
+                  "Cmd %"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Cmd %",
+                  "_id": "data-serie-93",
+                  "stroke": "rgba(46,204,113,1)",
+                  "fill": "rgba(46,204,113,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 6,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Error",
+               "sourceNames": [
+                  "Error"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Error",
+                  "_id": "data-serie-94",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 6,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "PIDValue",
+               "sourceNames": [
+                  "PIDValue"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "PIDValue",
+                  "_id": "data-serie-95",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      }
+   ],
+   "viewDuration": "900"
+}

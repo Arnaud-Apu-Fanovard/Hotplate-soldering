@@ -1,0 +1,164 @@
+{
+   "widgets": [
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 9,
+            "w": 12,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "SP",
+               "sourceNames": [
+                  "SP"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "SP",
+                  "_id": "data-serie-9",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "T_filtre 1",
+               "sourceNames": [
+                  "T_filtre 1"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "T_filtre 1",
+                  "_id": "data-serie-12",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "Cmd_1 %",
+               "sourceNames": [
+                  "Cmd_1 %"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Cmd_1 %",
+                  "_id": "data-serie-13",
+                  "stroke": "rgba(46,204,113,1)",
+                  "fill": "rgba(46,204,113,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "SP",
+               "sourceNames": [
+                  "SP"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "SP",
+                  "_id": "data-serie-14",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "T_filtre 2",
+               "sourceNames": [
+                  "T_filtre 2"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "T_filtre 2",
+                  "_id": "data-serie-15",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "Cmd_2 %",
+               "sourceNames": [
+                  "Cmd_2 %"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Cmd_2 %",
+                  "_id": "data-serie-16",
+                  "stroke": "rgba(46,204,113,1)",
+                  "fill": "rgba(46,204,113,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "SP",
+               "sourceNames": [
+                  "SP"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "SP",
+                  "_id": "data-serie-17",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "T_filtre 3",
+               "sourceNames": [
+                  "T_filtre 3"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "T_filtre 3",
+                  "_id": "data-serie-18",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "Cmd_3 %",
+               "sourceNames": [
+                  "Cmd_3 %"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Cmd_3 %",
+                  "_id": "data-serie-19",
+                  "stroke": "rgba(46,204,113,1)",
+                  "fill": "rgba(46,204,113,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      }
+   ],
+   "viewDuration": "900"
+}
